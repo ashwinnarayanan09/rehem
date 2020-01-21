@@ -6,7 +6,7 @@ function Menu() {
     //const handleSelect = eventKey => alert(`selected ${eventKey}`);
 
     return (
-        <Nav activeKey="1" className="navbar navbar-expand-lg navbar-light bg-dark">
+        <Nav activeKey="1" className="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
             <Navbar.Brand><Nav.Link eventKey="1" href="/">
                 REHEM
             </Nav.Link></Navbar.Brand>

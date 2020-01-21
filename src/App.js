@@ -18,10 +18,10 @@ function App() {
   return (
 
       <Router>
-          <div>
+          <div style={{backgroundColor:"#F8F8F8"}}>
               <Menu/>
 
-              <hr />
+              <br /><br/><br/><br/>
 
               {/*
           A <Switch> looks through all its children <Route>

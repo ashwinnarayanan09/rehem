@@ -1,34 +1,19 @@
 import React from "react";
 import { SocialIcon } from 'react-social-icons';
+import Navbar from "react-bootstrap/Navbar";
+import Nav from "react-bootstrap/Nav";
 
 function Footer(){
 
     return(
 
-        <div className="navbar navbar-expand-lg navbar-light bg-dark fixed-bottom">
+        <Nav activeKey="1" className="navbar navbar-expand-lg navbar-light bg-dark ">
+            <p style={{color:"white"}}>Follow us on social media</p>&nbsp;
+            <SocialIcon url="https://www.facebook.com/groups/534963220195670/?ref=share" />&nbsp;
+            <SocialIcon url="https://www.instagram.com/_rehem_/?igshid=vxf0m3d9mtns" />&nbsp;
+            <SocialIcon url="https://twitter.com/rehemfoundation"/>
 
-            <div className="row">
-                <div className="col-sm-6">
-                    <p style={{color:'white'}}>
-                        <u>India</u><br/>
-                        Meerut ,UP
-                    </p>
-                </div>
-
-                <div className="col-sm-6" >
-                    <div className="float-right">
-                    <p style={{color: "white"}}>Follow us on social media</p>  &nbsp;
-                    <SocialIcon url="https://www.facebook.com/groups/534963220195670/?ref=share" />&nbsp;
-                    <SocialIcon url="https://www.instagram.com/_rehem_/?igshid=vxf0m3d9mtns" /> <br/>
-                    </div>
-
-                </div>
-            </div>
-
-
-
-
-        </div>
+        </Nav>
 
     );
 
