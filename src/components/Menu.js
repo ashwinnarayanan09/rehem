@@ -6,29 +6,17 @@ function Menu() {
     //const handleSelect = eventKey => alert(`selected ${eventKey}`);
 
     return (
-        <Nav activeKey="1" className="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
-            <Navbar.Brand><Nav.Link eventKey="1" href="/">
-                REHEM
-            </Nav.Link></Navbar.Brand>
-
-            <Nav.Item>
-                <Nav.Link href ="/donate"  title="Item">
-                    Donate
-                </Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-                <Nav.Link href ="/about"  title="Item">
-                    About
-                </Nav.Link>
-            </Nav.Item>
-
-            <Nav.Item>
-                <Nav.Link href ="/contact"  title="Item">
-                    Contact
-                </Nav.Link>
-            </Nav.Item>
-
-        </Nav>
+        <Navbar  expand="lg" className="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+            <Navbar.Brand href="#home" style={{color: 'white', textDecoration: 'none'}}>Rehem</Navbar.Brand>
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Collapse id="basic-navbar-nav" >
+                <Nav className="mr-auto" >
+                    <Nav.Link href="/donate" style={{color: 'white', textDecoration: 'none'}}>Donate</Nav.Link>
+                    <Nav.Link href="/about" style={{color: 'white', textDecoration: 'none'}}>About</Nav.Link>
+                    <Nav.Link href="/contact" style={{color: 'white', textDecoration: 'none'}}>Contact</Nav.Link>
+                </Nav>
+            </Navbar.Collapse>
+        </Navbar>
     );
 }
 
