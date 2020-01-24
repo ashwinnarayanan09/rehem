@@ -7,7 +7,7 @@ function Menu() {
 
     return (
         <Navbar  expand="lg" className="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
-            <Navbar.Brand href="#home" style={{color: 'white', textDecoration: 'none'}}>Rehem</Navbar.Brand>
+            <Navbar.Brand href="#home" style={{color: 'white', textDecoration: 'none'}}>Rehem <img className="rounded-circle" src="images/logo.png"/></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav" >
                 <Nav className="mr-auto" >
