@@ -11,6 +11,7 @@ function About() {
             "RESCUE - There's a "U" in the word for a reason"
         </div>
         <Slideshow/>
+        <br/><br/>
         </div>
     );
 }

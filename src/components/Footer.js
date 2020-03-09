@@ -7,7 +7,7 @@ function Footer(){
 
     return(
 
-        <Nav activeKey="1" className="navbar navbar-expand-lg navbar-light bg-dark fixed-bottom">
+        <Nav activeKey="1" className="navbar navbar-expand-lg navbar-light bg-dark" style={{position: 'absolute',bottom: '0',width:'100%',height:'3.5rem'}}>
             <p style={{color:"white"}}>Follow us on social media</p>&nbsp;
             <SocialIcon url="https://www.facebook.com/groups/534963220195670/?ref=share" />&nbsp;
             <SocialIcon url="https://www.instagram.com/_rehem_/?igshid=vxf0m3d9mtns" />&nbsp;

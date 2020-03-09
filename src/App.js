@@ -18,10 +18,10 @@ function App() {
   return (
 
       <Router>
-          <div style={{backgroundColor:"#F8F8F8"}}>
+          <div style={{backgroundColor:"#F8F8F8",position: 'relative',minHeight: '100vh'}}>
               <Menu/>
 
-              <br /><br/><br/><br/>
+              <br /><br/><br/><br /><br/><br/>
 
               {/*
           A <Switch> looks through all its children <Route>
@@ -30,7 +30,7 @@ function App() {
           you have multiple routes, but you want only one
           of them to render at a time
         */}
-              <Switch>
+              <Switch style={{paddingBottom:'2.5rem'}}>
                   <Route exact path="/">
                       <Home />
                   </Route>
