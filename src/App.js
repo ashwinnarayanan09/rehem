@@ -22,7 +22,7 @@ function App() {
           <div style={{backgroundColor:"#F8F8F8",position: 'relative',minHeight: '100vh'}}>
               <Menu/>
 
-              <br /><br/><br/><br /><br/><br/>
+              <br /><br/><br/><br />
 
               {/*
           A <Switch> looks through all its children <Route>
@@ -49,6 +49,7 @@ function App() {
                       <Contact />
                   </Route>
               </Switch>
+                <br/><br/>
 
               <Footer/>
           </div>
