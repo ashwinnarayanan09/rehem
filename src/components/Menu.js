@@ -13,6 +13,7 @@ function Menu() {
                 <Nav className="mr-auto" >
                     <Nav.Link href="/donate" style={{color: 'white', textDecoration: 'none'}}>Donate</Nav.Link>
                     <Nav.Link href="/about" style={{color: 'white', textDecoration: 'none'}}>About</Nav.Link>
+                    <Nav.Link href="/gallery" style={{color: 'white', textDecoration: 'none'}}>Gallery</Nav.Link>
                     <Nav.Link href="/contact" style={{color: 'white', textDecoration: 'none'}}>Contact</Nav.Link>
                 </Nav>
             </Navbar.Collapse>

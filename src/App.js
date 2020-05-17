@@ -6,6 +6,7 @@ import Home from './components/Home.js'
 import About from './components/About.js'
 import Contact from './components/Contact.js'
 import Footer from './components/Footer.js'
+import Gallery from './components/Gallery.js'
 
 import {
     BrowserRouter as Router,
@@ -40,6 +41,9 @@ function App() {
                   </Route>
                   <Route exact path="/about">
                       <About />
+                  </Route>
+                  <Route exact path="/gallery">
+                      <Gallery />
                   </Route>
                   <Route exact path="/contact">
                       <Contact />
